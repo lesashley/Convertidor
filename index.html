@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Convertidor</title>
+</head>
+<body>
+  <form class="">
+    <h1>Convertidor</h1><br>
+    <table border="2px"> <!-- Lo cambiaremos por CSS -->
+           <tr>
+              <td>Farenheit</td>
+              <td><input type="number" id = "farenheit"/></td>
+              <td><button id = "converCelsius" onclick="convertirCelsius(); return false;">Convert to Celsius</button></td>
+          </tr>
+          <tr>
+              <td>Celsius</td>
+              <td><input type="number" id = "celsius"/></td>
+              <td><button id = "converFarenheit" onclick="convertirFarenheit(); return false;">Convert to farenheit</button></td>
+          </tr>
+        </table>
+        <br></br>
+        <div>
+          <button id ="Borrar" onclick="limpiar(); return false;">Clear</button>
+        </div>
+        <script src="assets\js\app.js">
+        </script>
+  </form>
+
+</body>
+</html>
